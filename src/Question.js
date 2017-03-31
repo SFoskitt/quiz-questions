@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 // import ReactDOM from 'react-dom'
 
-class Task extends Component {
+class Question extends Component {
     render () {
       return (
-        <div className="task">
-          <li>{this.props.title}</li>
+        <div className="question">
+          <li>{this.props.question}</li>
         </div>
       )
       
     }
 }
 
-export default Task;
+export default Question;

@@ -18,7 +18,13 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(180deg); }
+.card {
+  width: 45%;
+  margin: left;
+}
+
+.answers {
+  width: 45%;
+  float: right;
+  color: red;
 }
